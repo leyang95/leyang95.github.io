@@ -3,609 +3,693 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Le Yang Loh - Software Engineer</title>
+  <title>Le Yang Loh - Software Engineer</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!-- [if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif] -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- [if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif] -->
 
-    <style>
+  <style>
 
-    .intro-text {
-      color: #4E4E4E;
-    }
+  .intro-text {
+    color: #4E4E4E;
+  }
 
-    hr.star-light {
-        border-color: #424242;
-    }
+  hr.star-light {
+    border-color: #424242;
+  }
 
-    hr.star-light:after {
-      background: #EEE ;
-      color: #424242;
-    }
+  hr.star-light:after {
+    background: #EEE ;
+    color: #424242;
+  }
 
-    header .intro-text .name {
-      font-size: 3.75em;
-    }
+  header .intro-text .name {
+    font-size: 3.75em;
+  }
 
-    a{
-      color: #CC675B;
-    }
+  a{
+    color: #CC675B;
+  }
 
-    .navbar-custom {
-      background: #CC675B;
-    }
+  .navbar-custom {
+    background: #CC675B;
+  }
 
-    header {
-      background: #EEE ;
-    }
+  header {
+    background: #EEE ;
+  }
 
-    section.success {
-      background: #EEE ;
-      color: #4E4E4E;
-    }
+  section.success {
+    background: #EEE ;
+    color: #4E4E4E;
+  }
 
-    .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-      color: #CC675B ;
-      background: #f2f2f2  ;
-    }
+  .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+    color: #CC675B ;
+    background: #f2f2f2  ;
+  }
 
-    .btn-success {
-      color: #fff;
-      background-color: #CC675B;
-      border-color: #CC675B;
-    }
-    .btn-success.active, .btn-success:active, .btn-success:focus, .btn-success:hover, .open .dropdown-toggle.btn-success {
-      color: #fff;
-      background-color: #8e483f !important;
-      border-color: #8e483f !important;
-    }
-    a:hover, a:focus, a:active {
-      color: #8e483f !important;
-    }
+  .btn-success {
+    color: #fff;
+    background-color: #CC675B;
+    border-color: #CC675B;
+  }
+  .btn-success.active, .btn-success:active, .btn-success:focus, .btn-success:hover, .open .dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #8e483f !important;
+    border-color: #8e483f !important;
+  }
+  a:hover, a:focus, a:active {
+    color: #8e483f !important;
+  }
 
-    #portfolio .portfolio-item .portfolio-link .caption {
-      background: rgba(204,103,91,.2);
-    }
+  #portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(204,103,91,.2);
+  }
 
-    footer .footer-above {
-      background-color: rgba(204,103,91,1);
-    }
+  footer .footer-above {
+    background-color: rgba(204,103,91,1);
+  }
 
-    .portfolio-item h3, .portfolio-item a:link, .portfolio-item a:visited{
-      color:black;
-      text-decoration: none !important;
-      padding-top:0px;
-      padding-bottom:0px;
-    }
+  .portfolio-item h3, .portfolio-item a:link, .portfolio-item a:visited{
+    color:black;
+    text-decoration: none !important;
+    padding-top:0px;
+    padding-bottom:0px;
+  }
 
-    .img-rounded {
-      background-color:white;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-    }
+  .img-rounded {
+    background-color:white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+  }
 
-    .type-text{
-      color: black;
-      font-size: 30px;
-      position: absolute;
-      right: 0;
-      top: 25%;
-    }
+  .type-text{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 25%;
+  }
 
-    .typed-cursor{
-      opacity: 1;
-      -webkit-animation: blink 0.7s infinite;
-      -moz-animation: blink 0.7s infinite;
-      animation: blink 0.7s infinite;
-    }
-    @keyframes blink{
-      0% { opacity:1; }
-      50% { opacity:0; }
-      100% { opacity:1; }
-    }
-    @-webkit-keyframes blink{
-      0% { opacity:1; }
-      50% { opacity:0; }
-      100% { opacity:1; }
-    }
-    @-moz-keyframes blink{
-      0% { opacity:1; }
-      50% { opacity:0; }
-      100% { opacity:1; }
-    }
+  .typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+  @keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
 
-    </style>
+  .rectangle-speech-border {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    padding: 50px 0px 25px 0px;
+    margin: 1em 0 3em;
+    border: 10px solid #CC675B;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  /* creates larger curve */
+  .rectangle-speech-border:before {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    bottom: -39px;
+    left: 52px;
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: #CC675B;
+    background: transparent;
+    -webkit-border-bottom-right-radius: 80px 50px;
+    -moz-border-radius-bottomright: 80px 50px;
+    border-bottom-right-radius: 80px 50px;
+    display: block;
+  }
+
+  /* creates smaller curve */
+  .rectangle-speech-border:after {
+    content:"";
+    position:absolute;
+    z-index:10;
+    bottom: -39px;
+    left: 48px;
+    width:20px;
+    height:30px;
+    border-style:solid;
+    border-width:0 10px 10px 0;
+    border-color:#CC675B;
+    background:transparent;
+    /* css3 */
+    -webkit-border-bottom-right-radius:40px 50px;
+    -moz-border-radius-bottomright:40px 50px;
+    border-bottom-right-radius:40px 50px;
+    /* reduce the damage in FF3.0 */
+    display:block;
+  }
+
+  /* creates a small circle to produce a rounded point where the two curves meet */
+  .rectangle-speech-border > :first-child:before {
+    content: "";
+    position: absolute;
+    bottom: -39px;
+    left: 45px;
+    width: 10px;
+    height: 10px;
+    background: #CC675B;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  /* creates a white rectangle to cover part of the oval border*/
+  .rectangle-speech-border > :first-child:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 68px;
+    width: 24px;
+    height: 15px;
+    background: #fff;
+  }
+
+  </style>
 
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">LeYang Loh</a>
-            </div>
+  <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#page-top">LeYang Loh</a>
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#about">About</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="img-responsive img-rounded" src="img/profile.png" alt="Portraits" height="280" width="280">
+          <blockquote class="rectangle-speech-border">
+            <p></p>
+            <div class="type-text">Hello</div>
+          </blockquote>
+          <div class="intro-text">
+            <span class="name">Le Yang Loh</span>
+            <hr class="star-light">
+            <div class="skills">Software Development Intern - Performance Livestock Analytics</div>
+            <div class="skills">Student - Iowa State University</div>
+          </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+      </div>
+    </div>
+  </header>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                  <img class="img-responsive img-rounded" src="img/profile.png" alt="Portraits" height="280" width="280">
-                  <div class="type-text">Hello</div>
-                  <div class="intro-text">
-                      <span class="name">Le Yang Loh</span>
-                      <hr class="star-light">
-                      <div class="skills">Software Development Intern - Performance Livestock Analytics</div>
-                      <div class="skills">Student - Iowa State University</div>
-                  </div>
-                </div>
-            </div>
+  <!-- Portfolio Grid Section -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Portfolio</h2>
+          <hr class="star-primary">
         </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" style="max-width:480px">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pbv2-home.png" class="img-responsive" alt="">
-                        <div class="text-center">
-                          <h4>Performance Beef</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" style="margin-left: 6%">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ck-home.png" class="img-responsive" alt="">
-                        <div class="text-center">
-                          <h4>Cattle Krush</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/kamport-home.png" class="img-responsive" alt="">
-                        <div class="text-center">
-                          <h4>Kamport</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/JavaFX-home.jpg" class="img-responsive" alt="">
-                        <div class="text-center">
-                          <h4>JavaFX Photoshop</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/android-home.png" class="img-responsive" alt="">
-                        <div class="text-center">
-                          <h4>Android Clarifai</h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2 ">
-                </div>
-                <div class="col-lg-8">
-                    <h3> Hello! I'm Le Yang </h3>
-                    <p>
-                      I'm a graduating senior majoring in Computer Science at Iowa State University.
-                      I'm studying about Artificial Intelligent and Machine Learning.
-                      At the same time, I'm working as a Software Development Intern for Performance Livestock Analytics (PLA) since May 2015.
-                    </p>
-                    <p>
-                      In PLA, I have built a cross-platform application (Cattle Krush) to provide insights on feeder future markets for livestock producers.
-                      This application helps producers to be more competitive, as now they have access to real-time data to make better decision.
-                      I am developing a cloud-based farm management system (Performance Beef) that automates producer's day-to-day data inputs and generates
-                      reports, invoices, and analysis.
-                    </p>
-                    <p>
-                      I love implementing my knowledge to improve people's standard of living.
-                      I believe in creating smart machines that could minimize human's workload and help them to make better decision.
-                    </p>
-                </div>
-                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-offset-4 col-sm-8 text-left" style="font-size: 30px !important;">
-                <div>
-                  <i class="fa fa-phone-square"> (515)708-4731</i>
-                </div>
-                <div>
-                  <i class="fa fa-envelope"> leyang033195@gmail.com</i>
-                </div>
-                <div>
-                  <a href="https://www.linkedin.com/in/le-yang-loh-711673a4" style="color:black"> <i class="fa fa-linkedin"> &nbsp;Linkedin</i></a>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 portfolio-item">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" style="max-width:480px">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
+            <img src="img/portfolio/pbv2-home.png" class="img-responsive" alt="">
+            <div class="text-center">
+              <h4>Performance Beef</h4>
+            </div>
+          </a>
         </div>
-    </section>
-
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+        <div class="col-sm-6 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" style="margin-left: 6%">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/ck-home.png" class="img-responsive" alt="">
+            <div class="text-center">
+              <h4>Cattle Krush</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/kamport-home.png" class="img-responsive" alt="">
+            <div class="text-center">
+              <h4>Kamport</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/JavaFX-home.jpg" class="img-responsive" alt="">
+            <div class="text-center">
+              <h4>JavaFX Photoshop</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/android-home.png" class="img-responsive" alt="">
+            <div class="text-center">
+              <h4>Android Clarifai</h4>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body " >
-                            <h2>Performance Beef</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/pbv2-home.png" class="img-responsive img-centered" alt="">
-                            <div class="text-left">
-                              <p ><a href="http://www.performancelivestockanalytics.com/performance-beef.html">Performance Beef</a>
-                                is a cloud-based farm management application that helps beef growers to automate data entry process and analyze cattle related data.
-                              </p>
-                              <p>
-                                I have been a major contributor in developing this web application, ranging from initial site setup to production deployment. The application is written in JavaScirpt, PHP and MYSQL.
-                              </p>
-                              <p>
-                                Some of the key features developed by me:
-                              </p>
-                              <p>
-                                <h4>RESTful API</h4>
-                                Integrated APIs with Third-party vendor to retrieve and collect day-to-day data for our
-                                <a href="http://www.performancelivestockanalytics.com/blog/introducing-performance-beef-scale-app"> iPad Scale App </a>.
-                              </p>
-                              <p>
-                                <h4>User Interface for Data Handling</h4>
-                                Develop excel like interface using <a href="https://handsontable.com/">Handsontable</a> for users to upload and edit historical data. The system will also track everyday farm's data based on user inputs.
-                                Optimize SQL queries and DB settings that have reduced response time from minutes to milliseconds.
-                                <img src="img/portfolio/pbv2-handsontable.png" class="img-responsive img-centered" alt="">
-                              </p>
-                              <p >
-                                <h4>Analytical Charts</h4>
-                                Create interative analytics with <a href="http://www.highcharts.com/">HighCharts</a> to provide insights on the farm's data.
-                                <img src="img/portfolio/pbv2-charts.png" class="img-responsive img-centered" alt="">
-                              </p>
-                            </div>
-                            <p>
-                              Media coverage:
-                              <a href="http://globegazette.com/mcpress/news/local/performance-livestock-analytics-wins-pappajohn-award/article_284b382b-052e-568b-b210-d79afce4dbf9.html">Globe Gazette</a>
-                              <a href="http://www.scale-tec.com/updates/performance-livestock-analytics/">Scale Tec</a>
-                            </p>
+  <!-- About Section -->
+  <section class="success" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>About</h2>
+          <hr class="star-light">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 ">
+        </div>
+        <div class="col-lg-8">
+          <h3> Hello! I'm Le Yang </h3>
+          <p>
+            I'm a graduating senior majoring in Computer Science at Iowa State University.
+            I'm studying about Artificial Intelligent and Machine Learning.
+            At the same time, I'm working as a Software Development Intern for Performance Livestock Analytics (PLA) since May 2015.
+          </p>
+          <p>
+            In PLA, I have built a cross-platform application (Cattle Krush) to provide insights on feeder future markets for livestock producers.
+            This application helps producers to be more competitive, as now they have access to real-time data to make better decision.
+            I am developing a cloud-based farm management system (Performance Beef) that automates producer's day-to-day data inputs and generates
+            reports, invoices, and analysis.
+          </p>
+          <p>
+            I love implementing my knowledge to improve people's standard of living.
+            I believe in creating smart machines that could minimize human's workload and help them to make better decision.
+          </p>
+        </div>
+        <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="#" class="btn btn-lg btn-outline">
+        <i class="fa fa-download"></i> Download Theme
+      </a>
+    </div> -->
+  </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Contact Me</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-offset-4 col-sm-8 text-left" style="font-size: 30px !important;">
+        <div>
+          <i class="fa fa-phone-square"> (515)708-4731</i>
+        </div>
+        <div>
+          <i class="fa fa-envelope"> leyang033195@gmail.com</i>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/le-yang-loh-711673a4" style="color:black"> <i class="fa fa-linkedin"> &nbsp;Linkedin</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-                            <ul class="list-inline item-details">
-                                <li>Employer:
-                                    <strong><a href="http://www.performancelivestockanalytics.com/">Performance Livestock Analytics</a></strong>
-                                </li>
-                                <li>Date:
-                                    <strong>Aug 2016 - Present</strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+  <a class="btn btn-primary" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
+      </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body " >
+            <h2>Performance Beef</h2>
+            <hr class="star-primary">
+            <img src="img/portfolio/pbv2-home.png" class="img-responsive img-centered" alt="">
+            <div class="text-left">
+              <p ><a href="http://www.performancelivestockanalytics.com/performance-beef.html">Performance Beef</a>
+                is a cloud-based farm management application that helps beef growers to automate data entry process and analyze cattle related data.
+              </p>
+              <p>
+                I have been a major contributor in developing this web application, ranging from initial site setup to production deployment. The application is written in JavaScirpt, PHP and MYSQL.
+              </p>
+              <p>
+                Some of the key features developed by me:
+              </p>
+              <p>
+                <h4>RESTful API</h4>
+                Integrated APIs with Third-party vendor to retrieve and collect day-to-day data for our
+                <a href="http://www.performancelivestockanalytics.com/blog/introducing-performance-beef-scale-app"> iPad Scale App </a>.
+              </p>
+              <p>
+                <h4>User Interface for Data Handling</h4>
+                Develop excel like interface using <a href="https://handsontable.com/">Handsontable</a> for users to upload and edit historical data. The system will also track everyday farm's data based on user inputs.
+                Optimize SQL queries and DB settings that have reduced response time from minutes to milliseconds.
+                <img src="img/portfolio/pbv2-handsontable.png" class="img-responsive img-centered" alt="">
+              </p>
+              <p >
+                <h4>Analytical Charts</h4>
+                Create interative analytics with <a href="http://www.highcharts.com/">HighCharts</a> to provide insights on the farm's data.
+                <img src="img/portfolio/pbv2-charts.png" class="img-responsive img-centered" alt="">
+              </p>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Cattle Krush</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/ck-home.png" class="img-responsive img-centered" alt="">
-                            <div class="text-left">
-                              <p ><a href="https://cattlekrush.com/">Cattle Krush</a>
-                                combines the feeder future markets and connects current corn prices and finishing live prices, giving producers, lenders, and commodity brokers the insights they need to better their opportunities of higher profits.
-                              </p>
-                              <p>
-                                This real-time web application is written in Meteor.js for both frontend and backend, and MongoDB for database.
-                              </p>
-                              <p>
-                                We also integrated Cattle Krush into an IOS Application using Cordova as a wrapper.
-                              </p>
-                              <p>
-                                Media coverage:
-                                <a href="http://feedlotmagazine.com/performance-livestock-analytics-provides-realtime-profit-insights-to-the-cattle-feeding-industry/">Feedlot Magazine</a>
-                              </p>
-                            </div>
-                            <ul class="list-inline item-details">
-                                <li>Employer:
-                                    <strong><a href="http://www.performancelivestockanalytics.com/">Performance Livestock Analytics</a></strong>
-                                </li>
-                                <li>Date:
-                                    <strong>Jan 2016 - Aug 2016</strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web/Mobile Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p>
+              Media coverage:
+              <a href="http://globegazette.com/mcpress/news/local/performance-livestock-analytics-wins-pappajohn-award/article_284b382b-052e-568b-b210-d79afce4dbf9.html">Globe Gazette</a>
+              <a href="http://www.scale-tec.com/updates/performance-livestock-analytics/">Scale Tec</a>
+            </p>
+
+
+            <ul class="list-inline item-details">
+              <li>Employer:
+                <strong><a href="http://www.performancelivestockanalytics.com/">Performance Livestock Analytics</a></strong>
+              </li>
+              <li>Date:
+                <strong>Aug 2016 - Present</strong>
+              </li>
+              <li>Service:
+                <strong>Web Development</a></strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Kamport</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/kamport-home.png" class="img-responsive img-centered" alt="">
-                            <div class="text-left">
-                              <p ><a href="https://kamport.herokuapp.com/">Kamport</a>
-                                is a cross platform application that aids users to decide where they should eat. Kamport is the word for French's Restaurants.                              </p>
-                              <p>
-                                The application is built with <a href="https://www.meteor.com/">Metoer</a>, <a href="https://ionicframework.com/">Ionic</a>, MongoDB, JavaScript, and Google Places API.
-                              </p>
-                              <p>
-                                More information: <a href="https://devpost.com/software/whatever">Kamport - DevPost</a>
-                              </p>
-                            </div>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://hackisu.org">HackISU</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>Feb 2016
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web/IOS Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
+      </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Cattle Krush</h2>
+            <hr class="star-primary">
+            <img src="img/portfolio/ck-home.png" class="img-responsive img-centered" alt="">
+            <div class="text-left">
+              <p ><a href="https://cattlekrush.com/">Cattle Krush</a>
+                combines the feeder future markets and connects current corn prices and finishing live prices, giving producers, lenders, and commodity brokers the insights they need to better their opportunities of higher profits.
+              </p>
+              <p>
+                This real-time web application is written in Meteor.js for both frontend and backend, and MongoDB for database.
+              </p>
+              <p>
+                We also integrated Cattle Krush into an IOS Application using Cordova as a wrapper.
+              </p>
+              <p>
+                Media coverage:
+                <a href="http://feedlotmagazine.com/performance-livestock-analytics-provides-realtime-profit-insights-to-the-cattle-feeding-industry/">Feedlot Magazine</a>
+              </p>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>JavaFX Photoshop</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/JavaFX-home.jpg" class="img-responsive img-centered" alt="">
-                            <div class="text-left">
-                              <p >This software is
-                                a filter based photo editor in JavaFX. Includes cat stickers and a double effect filter.
-                              <p>
-                                The application is built with JavaFX.
-                              </p>
-                              <p>
-                                <ul>
-                                  <li>Nine iterations of the Effect interface. </li>
-                                  <li>Open a new window which views the image dynamically as the sliding values change</li>
-                                  <li>Option to place a random cat sticker at a random point on the image</li>
-                                  <li>Blend tool combines two filters and apply them</li>
-                                </ul>
-                              </p>
-                              <p>
-                                More information: <a href="https://devpost.com/software/double-void-pointer">JavaFX Photoshop - DevPost</a>
-                              </p>
-                            </div>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://hackisu.org">HackISU</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>September 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>
-                                      Software Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ul class="list-inline item-details">
+              <li>Employer:
+                <strong><a href="http://www.performancelivestockanalytics.com/">Performance Livestock Analytics</a></strong>
+              </li>
+              <li>Date:
+                <strong>Jan 2016 - Aug 2016</strong>
+              </li>
+              <li>Service:
+                <strong>Web/Mobile Development</a></strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Kamport</h2>
+            <hr class="star-primary">
+            <img src="img/portfolio/kamport-home.png" class="img-responsive img-centered" alt="">
+            <div class="text-left">
+              <p ><a href="https://kamport.herokuapp.com/">Kamport</a>
+                is a cross platform application that aids users to decide where they should eat. Kamport is the word for French's Restaurants.                              </p>
+                <p>
+                  The application is built with <a href="https://www.meteor.com/">Metoer</a>, <a href="https://ionicframework.com/">Ionic</a>, MongoDB, JavaScript, and Google Places API.
+                </p>
+                <p>
+                  More information: <a href="https://devpost.com/software/whatever">Kamport - DevPost</a>
+                </p>
+              </div>
+              <ul class="list-inline item-details">
+                <li>Client:
+                  <strong><a href="http://hackisu.org">HackISU</a>
+                  </strong>
+                </li>
+                <li>Date:
+                  <strong>Feb 2016
+                  </strong>
+                </li>
+                <li>Service:
+                  <strong>Web/IOS Development
+                  </strong>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>JavaFX Photoshop</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/JavaFX-home.jpg" class="img-responsive img-centered" alt="">
+              <div class="text-left">
+                <p >This software is
+                  a filter based photo editor in JavaFX. Includes cat stickers and a double effect filter.
+                  <p>
+                    The application is built with JavaFX.
+                  </p>
+                  <p>
+                    <ul>
+                      <li>Nine iterations of the Effect interface. </li>
+                      <li>Open a new window which views the image dynamically as the sliding values change</li>
+                      <li>Option to place a random cat sticker at a random point on the image</li>
+                      <li>Blend tool combines two filters and apply them</li>
+                    </ul>
+                  </p>
+                  <p>
+                    More information: <a href="https://devpost.com/software/double-void-pointer">JavaFX Photoshop - DevPost</a>
+                  </p>
+                </div>
+                <ul class="list-inline item-details">
+                  <li>Client:
+                    <strong><a href="http://hackisu.org">HackISU</a>
+                    </strong>
+                  </li>
+                  <li>Date:
+                    <strong>September 2015
+                    </strong>
+                  </li>
+                  <li>Service:
+                    <strong>
+                      Software Development
+                    </strong>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Android Clarifai</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/android-home.png" class="img-responsive img-centered" alt="">
-                            <div class="text-left">
-                              <p>
-                                Android Clarifai helps people with color bind disabilities. It processes images upload by user
-                                and creates responses on the color of an area being pin-point by the user.
-                              </p>
-
-                              <p>
-                                The android app is built with Java and Clarifai API.
-                              </p>
-                            </div>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://hackisu.org">HackISU</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>September 2016
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>
-                                      Mobile Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <h2>Android Clarifai</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/android-home.png" class="img-responsive img-centered" alt="">
+                <div class="text-left">
+                  <p>
+                    Android Clarifai helps people with color bind disabilities. It processes images upload by user
+                    and creates responses on the color of an area being pin-point by the user.
+                  </p>
+
+                  <p>
+                    The android app is built with Java and Clarifai API.
+                  </p>
+                </div>
+                <ul class="list-inline item-details">
+                  <li>Client:
+                    <strong><a href="http://hackisu.org">HackISU</a>
+                    </strong>
+                  </li>
+                  <li>Date:
+                    <strong>September 2016
+                    </strong>
+                  </li>
+                  <li>Service:
+                    <strong>
+                      Mobile Development
+                    </strong>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- jQuery -->
@@ -631,10 +715,11 @@
     $(function(){
       $(".type-text").typed({
         strings: ["Hi there.", "Welcome to my personal page."],
-        typeSpeed: 50
+        typeSpeed: 30,
+        showCursor: false
       });
     });
     </script>
-</body>
+  </body>
 
-</html>
+  </html>
